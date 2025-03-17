@@ -14,6 +14,7 @@
             justify-content: flex-start;
             flex-direction: row;
             gap: 0px;
+            margin-right: 76px;
 }
 
 .accent {
@@ -24,6 +25,7 @@
     font: 500 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0 24px 0;
 }
 
 .menu-list:hover,
@@ -154,17 +156,28 @@ color: #434455;
 .header-container {
     background: #fff;
     border-bottom: 1px solid #e7e9fc;
-        width: 1440px;
-        height: 72px;
+        width: 1158px;
         margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 0 15px 0 15px;
 }
-.menu-header-container {
+.menu-header-container .menu-header {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 40px;
+        gap: 40px; 
 }
+
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.nav-header {
+  display: flex; 
+  align-items: center; 
+}
+
