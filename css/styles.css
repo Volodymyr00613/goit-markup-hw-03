@@ -9,6 +9,11 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 0px;
 }
 
 .accent {
@@ -146,7 +151,20 @@ color: #434455;
     color:#f4f4fd;
 }
 
-.container {
-height: 1158px;
-width: ;
+.header-container {
+    background: #fff;
+    border-bottom: 1px solid #e7e9fc;
+        width: 1440px;
+        height: 72px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.menu-header-container {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
 }
