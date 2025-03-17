@@ -1,0 +1,147 @@
+  body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font: 700 18px / 1.17 "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.accent {
+    color: #2e2f42;
+}
+
+.menu-header .menu-list {
+    font: 500 16px / 1.5 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.menu-list:hover,
+.menu-list:focus {
+    color: #404bbf
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts .contacts-list {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.contacts-list:hover,
+.contacts-list:focus {
+    color: #404bbf
+}
+
+.form {
+    background: #2e2f42;
+}
+
+.form-title {
+    font: 700 56px / 1.07 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
+}
+
+.form-button {
+    background: #4d5ae5;
+    font: 500 16px / 1.5 "Roboto", sans-serif;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+
+.form-button:hover,
+.form-button:focus {
+    background-color: #404BBF
+}
+
+.skills-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.skills-text {
+    line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.team {
+    background: #f4f4fd;
+}
+
+.our-team {
+background: #ffffff;
+}
+
+.team-list {
+    background: #ffffff;
+}
+
+.team-title {
+    font: 700 36px / 1.11 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.team-list-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.team-list-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+ .portfolio-main-title {
+    font: 700 36px / 1.11 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.portfolio-list .portfolio-list-title {
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-list .portfolio-list-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer .footer-text {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+.footer .accent {
+    color:#f4f4fd;
+}
