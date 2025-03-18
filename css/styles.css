@@ -2,6 +2,13 @@
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    display: block;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
 }
 
 .logo {
@@ -157,6 +164,7 @@ color: #434455;
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .page-header {
