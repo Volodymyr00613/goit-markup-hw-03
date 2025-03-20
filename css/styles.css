@@ -222,9 +222,11 @@ img {
          .page-header {
            padding: 0;
             background-color: #fff;
-            margin-bottom: auto;
+            margin: auto;
          }
 
          .form {
             padding: 188px 0 188px;
+            margin: auto;
+
          }
