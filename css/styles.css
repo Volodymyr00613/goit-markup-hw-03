@@ -58,14 +58,19 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
+        max-width: 496px;
 }
 
 .form-button {
-    background: #4d5ae5;
     font: 500 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
 }
 
 .form-button:hover,
@@ -218,4 +223,8 @@ img {
            padding: 0;
             background-color: #fff;
             margin-bottom: auto;
+         }
+
+         .form {
+            padding: 188px 0 188px;
          }
