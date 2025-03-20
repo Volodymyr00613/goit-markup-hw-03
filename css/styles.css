@@ -168,7 +168,8 @@ img {
 }
 
 .page-header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .nav-header {
@@ -185,12 +186,36 @@ img {
     gap: 40px;
     display: flex;
 }
-.header-main-container .container {
-  width: 1158px;
-        margin:0 auto;
+ .logo-container {
+   margin:0 auto;
         padding: 0 15px 0 15px;
          }
 
          .nav-header .logo {
-            margin-right: 76px;
+            margin: 24px 76px 24px 156px;
+         }
+
+         .menu-header-container {
+            display: block;
+         }
+
+         .contacts-container {
+            display: block;
+            margin: 0 auto;
+            padding: 24px 0;
+            justify-content: flex-end;
+         }
+
+         .header-main-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+
+
+         .page-header {
+           padding: 0;
+            background-color: #fff;
+            margin-bottom: auto;
          }
