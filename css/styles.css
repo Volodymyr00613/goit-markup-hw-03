@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}  
   body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -166,8 +171,11 @@ gap: 24px;
 
 .team-list {
     background: #ffffff;
-    width: calc((100% - 72px) / 4);
+
     border-radius: 0px 0px 4px 4px;
+}
+.team-list li {
+width: calc((100% - 72px) / 4);
 }
 
 .team-container {
@@ -180,24 +188,28 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-margin-bottom: 76px;
+margin-bottom: 72px;
 }
 
-.team-list-title {
+.team-list .team-list-title {
     font: 500 20px / 1.2 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+       margin-bottom: 8px;
         text-align: center;
 }
 
-.team-list-text {
+.team-list .team-list-text {
     font: 400 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
         text-align: center;
+}
+
+.portfolio {
+    margin: 120px 0 120px 0;
 }
 
  .portfolio-main-title {
@@ -206,15 +218,28 @@ margin-bottom: 76px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.portfolio-list .portfolio-list-title {
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    
+}
+
+.portfolio-list li {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list-item .portfolio-list-title {
     font: 500 20px / 1.2 "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.portfolio-list .portfolio-list-text {
+.portfolio-list-item .portfolio-list-text {
     font: 400 16px / 1.5 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 color: #434455;
