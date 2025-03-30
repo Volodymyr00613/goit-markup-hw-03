@@ -175,18 +175,18 @@ margin-bottom: 8px;
     padding: 120px 0;
 }
 
-.our-team {
+.team-list {
 background: #ffffff;
 display: flex;
 gap: 24px;
 }
 
-.team-list {
+.team-list-item {
     background: #ffffff;
 
     border-radius: 0px 0px 4px 4px;
 }
-li .team-list {
+.team-list .team-list {
 width: calc((100% - 72px) / 4);
 }
 
@@ -241,7 +241,7 @@ margin-bottom: 72px;
     
 }
 
-li .portfolio-list-item {
+.portfolio-list .portfolio-list-item {
     width: calc((100% - 48px) / 3);
 }
 .portfolio-container {
