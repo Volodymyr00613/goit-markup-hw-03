@@ -84,7 +84,7 @@ address {
 .form {
     background: #2e2f42;
     padding: 188px 0;
-}
+   }
 
 .form-title {
     font: 700 56px / 1.07 "Roboto", sans-serif;
@@ -114,10 +114,37 @@ address {
     background-color: #404BBF
 }
 
+.advantages {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+        white-space: nowrap;
+    }
+
+    .advantages-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .advantages-list-item {
+width: calc((100%-72px)/4);
+    }
+
 .advantages-title {
     font: 500 20px / 1.2 "Roboto", sans-serif;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .advantages-text {
