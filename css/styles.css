@@ -186,7 +186,7 @@ gap: 24px;
 
     border-radius: 0px 0px 4px 4px;
 }
-.team-list li {
+li .team-list {
 width: calc((100% - 72px) / 4);
 }
 
@@ -241,7 +241,7 @@ margin-bottom: 72px;
     
 }
 
-.portfolio-list-item {
+li .portfolio-list-item {
     width: calc((100% - 48px) / 3);
 }
 .portfolio-container {
