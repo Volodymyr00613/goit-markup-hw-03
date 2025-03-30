@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,45 +21,59 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >Web<span class="accent">Studio</span></a
-        >
+    <header class="header">
+      <div class="header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo"
+            >Web<span class="accent">Studio</span></a
+          >
 
-        <ul class="menu-header">
-          <li>
-            <a href="./index.html" class="menu-list" id="menu-list-studio"
-              >Studio</a
-            >
-          </li>
-          <li>
-            <a href="" class="menu-list" id="menu-list-portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="menu-list" id="menu-list-contacts">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="menu-header">
+            <li>
+              <a href="./index.html" class="menu-list" id="menu-list-studio"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a href="" class="menu-list" id="menu-list-portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="" class="menu-list" id="menu-list-contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="feedback">
-        <ul class="contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-list" id="email"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contacts-list" id="tel"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="feedback">
+          <ul class="contacts">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts-list"
+                id="email"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contacts-list" id="tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -72,40 +86,40 @@
         <button type="button" class="form-button">Order Service</button>
       </section>
 
-      <section class="skills">
-        <!-- skills-description
+      <section class="advantages">
+        <!-- advantages-description
          -->
 
-        <h2 class="skills-main-title">skills-description</h2>
+        <h2 class="advantages-main-title">Advantages</h2>
 
         <ul>
-          <li class="skills-list">
-            <h3 class="skills-title" id="strategy">Strategy</h3>
-            <p class="skills-text">
+          <li class="advantages-list">
+            <h3 class="advantages-title" id="strategy">Strategy</h3>
+            <p class="advantages-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
-          <li class="skills-list">
-            <h3 class="skills-title" id="punctuality">Punctuality</h3>
-            <p class="skills-text">
+          <li class="advantages-list">
+            <h3 class="advantages-title" id="punctuality">Punctuality</h3>
+            <p class="advantages-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
-          <li class="skills-list">
-            <h3 class="skills-title" id="diligence">Diligence</h3>
-            <p class="skills-text">
+          <li class="advantages-list">
+            <h3 class="advantages-title" id="diligence">Diligence</h3>
+            <p class="advantages-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
 
-          <li class="skills-list">
-            <h3 class="skills-title" id="technologies">Technologies</h3>
-            <p class="skills-text">
+          <li class="advantages-list">
+            <h3 class="advantages-title" id="technologies">Technologies</h3>
+            <p class="advantages-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
