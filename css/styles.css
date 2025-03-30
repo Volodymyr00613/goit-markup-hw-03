@@ -62,19 +62,19 @@ address {
     font-style: normal;
 }
 
-.feedback {
+.contacts-list {
     display: flex;
     gap: 40px;
 }
 
-.contacts .contacts-list {
+.contacts-list .contacts-link {
     font: 400 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.contacts-list:hover,
-.contacts-list:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf
 }
 
