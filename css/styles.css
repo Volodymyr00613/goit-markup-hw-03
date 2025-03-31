@@ -9,9 +9,9 @@
     background-color: #FFFFFF;
     }
         .container {
-          width: 1440px;  
-          padding: 0;
-          margin: 0;
+          width: 1158px;  
+          padding: 0 15px;
+          margin: 0 auto;
         }
 
 p,
@@ -25,7 +25,8 @@ h {
 
  ul, ol {
     list-style-type: none;
-    padding-left: 156px;
+    padding-left: 0;
+    margin: 0;
  }
 
  .header {
@@ -145,6 +146,7 @@ address {
         clip: rect(0, 0, 0, 0);
         border: 0;
         white-space: nowrap;
+        clip-path: inset(100%);
     }
 
     .advantages-list {
